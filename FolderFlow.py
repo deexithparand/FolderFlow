@@ -12,11 +12,11 @@ def print_folder_structure(folder_path, prefix=""):
             continue
 
         if index == len(contents) - 1:
-            connector = "└── "
+            connector = "`-- "
             new_prefix = prefix + "    "
         else:
-            connector = "├── "
-            new_prefix = prefix + "│   "
+            connector = "|-- "
+            new_prefix = prefix + "|   "
 
         print(prefix + connector + item)
 
@@ -27,3 +27,4 @@ def print_folder_structure(folder_path, prefix=""):
 folder_path = os.getcwd()
 print(os.path.basename(folder_path) + "/")
 print_folder_structure(folder_path)
+
