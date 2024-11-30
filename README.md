@@ -1,11 +1,11 @@
-# FolderFlow
+# folderflow
 
 ### Usage
 
 To execute the `FolderFlow` script from your current directory, use the following command:
 
 ```
-curl -s https://raw.githubusercontent.com/DeexithParand2k2/FolderFlow/master/FolderFlow.py | python -
+curl -s https://raw.githubusercontent.com/DeexithParand2k2/folderflow/master/FolderFlow.py | python -
 ```
 
 ### Requirements
